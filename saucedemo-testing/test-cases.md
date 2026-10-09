@@ -2,8 +2,8 @@
 
 **Metode:** Manual testing (black box)
 **Aplikasi:** SauceDemo, situs e-commerce demo untuk latihan testing
-**Browser:** (isi, contoh: Chrome versi xxx, Windows 11)
-**Tanggal pengujian:** (isi)
+**Browser:** (isi, contoh: Chrome versi xxx, Windows 10)
+**Tanggal pengujian:** (09 Oktober 2026)
 
 **Akun uji** (tertera di halaman login): standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user
 
