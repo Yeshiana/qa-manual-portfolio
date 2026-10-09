@@ -28,6 +28,5 @@
 | TC-017 | Checkout dengan kode pos kosong | Kosongkan Postal Code, klik Continue | Muncul pesan wajib diisi | Pass |
 | TC-018 | Perhitungan total di halaman Overview | Cek Item total, Tax, dan Total | Total = harga item + pajak, hitungannya benar | Pass |
 | TC-019 | Logout | Buka menu, klik Logout | Kembali ke halaman login | Pass |
-| TC-020 | Menambah produk dengan problem_user | Login problem_user, tambah dan hapus produk, cek gambar dan sort | Perilaku sama seperti standard_user | faild alasannya ada beberapa : 1. gambar di halaman utama bukan gambar yang sesuai dengan prodak yang seharusnya , 2. ketika diklik detail produknya tambah ngaco karena ada kesalahan nama prodak dan fotonya karena tidak sesuai dengan nama dan gambar di halaman utama 3. tombol add to chart di halaman detail prodak tidak berfungsu 4. sort yang berfungsi hanya A-Z sisanya tidak berfungsi 
- |
-| TC-021 | Checkout dengan error_user | Login error_user, lakukan checkout lengkap | Checkout berjalan normal | Faild alasannya pada halaman chekout your informasion last name tidak bisa diisi sedangkan frist name dan kode pos bisa diisi dan bisa melanjutkan transaksi (harusnya itu gak bisa), dan tidak bisa klik tombol finish |
+| TC-020 | Menambah produk dengan problem_user | Login problem_user, tambah dan hapus produk, cek gambar dan sort | Perilaku sama seperti standard_user | Fail (lihat BUG-001 sampai BUG-004) |
+| TC-021 | Checkout dengan error_user | Login error_user, lakukan checkout lengkap | Checkout berjalan normal | Fail (lihat BUG-005 dan BUG-006) |
