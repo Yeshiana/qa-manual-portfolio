@@ -9,8 +9,8 @@
 
 | ID | Skenario | Langkah | Expected Result | Status |
 |---|---|---|---|---|
-| TC-001 | Login dengan akun valid | Login sebagai standard_user | Masuk ke halaman daftar produk | Belum dijalankan |
-| TC-002 | Login dengan akun terkunci | Login sebagai locked_out_user | Muncul pesan bahwa akun terkunci | Belum dijalankan |
+| TC-001 | Login dengan akun valid | Login sebagai standard_user | Masuk ke halaman daftar produk | Pass |
+| TC-002 | Login dengan akun terkunci | Login sebagai locked_out_user | Muncul pesan bahwa akun terkunci | fail |
 | TC-003 | Login dengan password salah | Isi username valid dan password salah | Muncul pesan error, login ditolak | Belum dijalankan |
 | TC-004 | Login dengan username kosong | Kosongkan username, isi password, klik Login | Muncul pesan "Username is required" | Belum dijalankan |
 | TC-005 | Login dengan password kosong | Isi username, kosongkan password, klik Login | Muncul pesan "Password is required" | Belum dijalankan |
