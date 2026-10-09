@@ -15,7 +15,7 @@
 | TC-004 | Login dengan username kosong | Kosongkan username, isi password, klik Login | Muncul pesan "Username is required" | Pass |
 | TC-005 | Login dengan password kosong | Isi username, kosongkan password, klik Login | Muncul pesan "Password is required" | Pass |
 | TC-006 | Tampilan daftar produk | Login, lihat halaman produk | Semua produk tampil lengkap dengan gambar, nama, dan harga | Pass |
-| TC-007 | Urutkan nama A-Z dan Z-A | Pilih opsi sort nama | Produk terurut sesuai pilihan | Belum dijalankan |
+| TC-007 | Urutkan nama A-Z dan Z-A | Pilih opsi sort nama | Produk terurut sesuai pilihan | Pass |
 | TC-008 | Urutkan harga rendah ke tinggi dan sebaliknya | Pilih opsi sort harga | Produk terurut sesuai harga | Belum dijalankan |
 | TC-009 | Membuka detail produk | Klik nama produk | Halaman detail menampilkan produk yang benar | Belum dijalankan |
 | TC-010 | Menambah satu produk ke keranjang | Klik Add to cart pada satu produk | Tombol berubah menjadi Remove, angka di ikon keranjang bertambah | Belum dijalankan |
