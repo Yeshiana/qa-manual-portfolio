@@ -3,7 +3,7 @@
 Daftar bug yang ditemukan pada pengujian manual SauceDemo, dikelompokkan berdasarkan test case. Klik ID untuk melihat bug report lengkap.
 
 **Environment:** Chrome 155, Windows 10
-**Tanggal pengujian:** 9 Oktober 2026 (pengujian awal), 13 Oktober 2026 (pengujian ulang)
+**Tanggal pengujian:** 9 Oktober 2026 (pengujian awal), 13 dan 14 Oktober 2026 (pengujian ulang)
 
 ## Bug Terkonfirmasi
 
@@ -13,8 +13,10 @@ Expected: perilaku sama seperti standard_user.
 | ID | Judul | Severity | Status |
 |---|---|---|---|
 | [BUG-001](BUG-001.md) | Gambar produk di halaman Products tidak sesuai produknya (semua produk) | Medium | Open |
-| [BUG-002](BUG-002.md) | Gambar dan keterangan di halaman detail tidak sesuai produk yang diklik | High | Open |
+| [BUG-002](BUG-002.md) | Halaman detail menampilkan produk yang berbeda dari produk yang diklik | High | Open |
+| [BUG-003](BUG-003.md) | Tombol "Add to cart" hanya berfungsi di 3 dari 6 produk | High | Open |
 | [BUG-004](BUG-004.md) | Opsi sort selain Name (A to Z) tidak bisa dipilih | Medium | Open |
+| [BUG-007](BUG-007.md) | Tombol "Remove" tidak berfungsi di halaman Products | Medium | Open |
 
 ### TC-021: Checkout dengan error_user
 Expected: checkout berjalan normal.
@@ -26,27 +28,26 @@ Expected: checkout berjalan normal.
 
 ## Perlu Ditinjau (belum terbukti di kondisi bersih)
 
-Temuan di bawah ini belum diulang dari kondisi bersih (data situs dihapus atau Incognito, badge keranjang kosong sebelum mulai). Jangan dianggap bug resmi sebelum terbukti.
-
-### TC-020: problem_user
-
 | ID | Temuan | Yang harus dibuktikan | Hasil |
 |---|---|---|---|
-| BUG-003 | Add to cart hanya berfungsi di 3 dari 6 produk | Klik Add to cart satu per satu di tiap produk, catat tombol dan badge setiap kali | Belum diuji ulang |
-| BUG-007 | Tombol Remove tidak berfungsi di halaman Products | Setelah Add to cart berhasil, klik Remove, cek tombol dan badge | Belum diuji ulang |
-| BUG-008 | Tombol di detail masih "Add to cart" padahal produk sudah ditambahkan (contoh: Backpack) | Tambah satu produk di Products, buka detailnya | Belum diuji ulang |
-| BUG-009 | Tombol "Remove" muncul di detail untuk produk yang belum ditambahkan (contoh: Test.allTheThings() T-Shirt (Red)) | Dari keranjang bersih, tambah satu produk saja, buka detail produk lain | Belum diuji ulang |
 | BUG-010 | Badge keranjang menunjukkan 1 padahal keranjang kosong | Ulangi dari profil bersih. Sempat muncul juga di standard_user pada profil lama, jadi kemungkinan sisa data | Ditunda |
-| BUG-011 | Detail Sauce Labs Fleece Jacket menampilkan "ITEM NOT FOUND" dan harga tidak valid | Buka detail Fleece Jacket dari kondisi bersih | Belum diuji ulang |
+| BUG-011 | Detail Sauce Labs Fleece Jacket menampilkan "ITEM NOT FOUND" dan harga tidak valid | Klik Fleece Jacket dari kondisi bersih, catat yang tampil di detail | Belum diuji ulang |
+
+## Temuan yang Digabung
+
+| ID | Alasan |
+|---|---|
+| BUG-008 | Tombol detail "Add to cart" ternyata sesuai produk yang tampil (Fleece Jacket). Digabung ke BUG-002 |
+| BUG-009 | Tombol detail "Remove" ternyata sesuai produk yang tampil (Backpack). Digabung ke BUG-002 |
 
 ## Ringkasan Bug Terkonfirmasi
 
 | Severity | Jumlah |
 |---|---|
 | Critical | 1 |
-| High | 2 |
-| Medium | 2 |
-| **Total** | **5** |
+| High | 3 |
+| Medium | 3 |
+| **Total** | **7** |
 
 ## Panduan Severity yang Digunakan
 
