@@ -3,7 +3,7 @@
 **Metode:** Manual testing (black box)
 **Aplikasi:** SauceDemo, situs e-commerce demo untuk latihan testing
 **Browser:** Chrome 155, Windows 10
-**Tanggal pengujian:** 9 Oktober 2026 (pengujian awal), 13 dan 14 Oktober 2026 (pengujian ulang)
+**Tanggal pengujian:** 9 Oktober 2026 (pengujian awal), 10 dan 11 Oktober 2026 (pengujian ulang)
 
 **Akun uji** (tertera di halaman login): standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user
 
