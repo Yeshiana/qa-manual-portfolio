@@ -31,15 +31,14 @@ Expected: checkout berjalan normal.
 | ID | Temuan | Yang harus dibuktikan | Hasil |
 |---|---|---|---|
 | BUG-010 | Badge keranjang menunjukkan 1 padahal keranjang kosong | Ulangi dari profil bersih. Sempat muncul juga di standard_user pada profil lama, jadi kemungkinan sisa data | Ditunda |
-| BUG-011 | Detail Sauce Labs Fleece Jacket menampilkan "ITEM NOT FOUND" dan harga tidak valid | Klik Fleece Jacket dari kondisi bersih, catat yang tampil di detail | Belum diuji ulang |
 
-## Temuan yang Digabung
+## Temuan yang Digabung atau Dibatalkan
 
 | ID | Alasan |
 |---|---|
 | BUG-008 | Tombol detail "Add to cart" ternyata sesuai produk yang tampil (Fleece Jacket). Digabung ke BUG-002 |
 | BUG-009 | Tombol detail "Remove" ternyata sesuai produk yang tampil (Backpack). Digabung ke BUG-002 |
-
+| BUG-011 | Tampilan "ITEM NOT FOUND" tidak muncul saat diuji ulang dari kondisi bersih. Dibatalkan, kemungkinan sisa data lama |
 ## Ringkasan Bug Terkonfirmasi
 
 | Severity | Jumlah |
