@@ -3,10 +3,12 @@
 **Metode:** Manual testing (black box)
 **Aplikasi:** SauceDemo, situs e-commerce demo untuk latihan testing
 **Browser:** Chrome 155, Windows 10
-**Tanggal pengujian:** 9 Oktober 2026 (pengujian awal), 13 Oktober 2026 (pengujian ulang)
+**Tanggal pengujian:** 9 Oktober 2026 (pengujian awal), 13 dan 14 Oktober 2026 (pengujian ulang)
 
 **Akun uji** (tertera di halaman login): standard_user, locked_out_user, problem_user, performance_glitch_user, error_user, visual_user
+
 **Catatan:** TC-001 sampai TC-019 dijalankan dengan akun standard_user, kecuali disebutkan lain di kolom Langkah.
+
 | ID | Skenario | Langkah | Expected Result | Status |
 |---|---|---|---|---|
 | TC-001 | Login dengan akun valid | Login sebagai standard_user | Masuk ke halaman daftar produk | Pass |
@@ -28,5 +30,5 @@
 | TC-017 | Checkout dengan kode pos kosong | Kosongkan Postal Code, klik Continue | Muncul pesan wajib diisi | Pass |
 | TC-018 | Perhitungan total di halaman Overview | Cek Item total, Tax, dan Total | Total = harga item + pajak, hitungannya benar | Pass |
 | TC-019 | Logout | Buka menu, klik Logout | Kembali ke halaman login | Pass |
-| TC-020 | Menambah produk dengan problem_user | Login problem_user, tambah dan hapus produk, cek gambar dan sort | Perilaku sama seperti standard_user | Fail (lihat BUG-001, BUG-002, BUG-004) |
+| TC-020 | Menambah produk dengan problem_user | Login problem_user, tambah dan hapus produk, cek gambar dan sort | Perilaku sama seperti standard_user | Fail (lihat BUG-001, BUG-002, BUG-003, BUG-004, BUG-007) |
 | TC-021 | Checkout dengan error_user | Login error_user, lakukan checkout lengkap | Checkout berjalan normal | Fail (lihat BUG-005 dan BUG-006) |
