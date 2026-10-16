@@ -4,7 +4,8 @@ Lulusan S1 Informatika dengan latar belakang pengembangan web (PHP, Laravel, MyS
 
 ## Skill
 - **Testing & QA:** Manual testing, black box testing, test case design, bug reporting
-- **Teknis:** PHP, Laravel, MySQL, HTML, CSS
+- **Teknis:** PHP, Laravel, MySQL, HTML, CSS, JavaScript (dasar)
+- **Pendukung:** Dasar analisis data, dasar desain UI
 
 ## Proyek
 
@@ -19,13 +20,20 @@ Pengujian black box terhadap 17 skenario: autentikasi, pencarian, peminjaman, pe
 - 📁 [Lihat folder](./library-system-testing)
 
 ### 3. SauceDemo (E-commerce Demo)
-(Tulis 1-2 kalimat: apa yang dites, misalnya login, keranjang, checkout, dan jumlah test case/bug yang ditemukan.)
+(Tulis 1-2 kalimat: apa yang dites dan temuannya.)
 - 📁 [Lihat folder](./saucedemo-testing)
 
+## Pengalaman
+**Internship, Himpunan Mahasiswa Informatika, International Women University**
+Program internship selama 3 bulan (hingga Februari 2024) dengan predikat nilai **A**.
+- 📄 [Lihat sertifikat](./certificates/01-internship-hima-if-2024.pdf)
+
 ## Sertifikat
-| Sertifikat | Penerbit | Tahun | Link |
-|---|---|---|---|
-| (nama sertifikat) | (penerbit) | (tahun) | [Lihat](./certificates/nama-file.pdf) |
+| Sertifikat | Penerbit | Tanggal | Keterangan | Link |
+|---|---|---|---|---|
+| Intro to Data Analytics | RevoU | Juni 2024 | Kursus online 2 minggu tentang dasar analisis data | [Lihat](./certificates/02-revou-intro-data-analytics-2024.pdf) |
+| Frontend Fundamentals (3 kursus) | MySkill | Maret - Juli 2026 | Introduction to CSS, Introduction to JavaScript, dan Data Type and Operator (masing-masing 1 jam) | [CSS](./certificates/04-myskill-intro-css-2026.pdf) · [JS Intro](./certificates/05-myskill-intro-javascript-2026.pdf) · [JS Data Type](./certificates/06-myskill-javascript-data-type-operator-2026.pdf) |
+| Pelatihan Desain User Interface | HIMATIF, International Women University | Januari 2023 | Peserta pelatihan desain UI | [Lihat](./certificates/03-pelatihan-ui-design-himatif-2023.jpg) |
 
 ## Kontak
 - Email: yeshiana92@gmail.com
