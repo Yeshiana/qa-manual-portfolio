@@ -3,7 +3,7 @@
 Daftar bug yang ditemukan pada pengujian manual SauceDemo, dikelompokkan berdasarkan test case. Klik ID untuk melihat bug report lengkap.
 
 - **Environment:** Chrome 155, Windows 10
-- **Tanggal pengujian:** 9 Oktober 2026 (pengujian awal), 13 dan 14 Oktober 2026 (pengujian ulang)
+- **Tanggal pengujian:** 9 Oktober 2026 (pengujian awal), 10 dan 11 Oktober 2026 (pengujian ulang)
 
 ## Bug Terkonfirmasi
 
