@@ -2,8 +2,8 @@
 
 Daftar bug yang ditemukan pada pengujian manual SauceDemo, dikelompokkan berdasarkan test case. Klik ID untuk melihat bug report lengkap.
 
-**Environment:** Chrome 155, Windows 10
-**Tanggal pengujian:** 9 Oktober 2026 (pengujian awal), 13 dan 14 Oktober 2026 (pengujian ulang)
+- **Environment:** Chrome 155, Windows 10
+- **Tanggal pengujian:** 9 Oktober 2026 (pengujian awal), 13 dan 14 Oktober 2026 (pengujian ulang)
 
 ## Bug Terkonfirmasi
 
@@ -26,19 +26,6 @@ Expected: checkout berjalan normal.
 | [BUG-005](BUG-005.md) | Kolom Last Name tidak bisa diisi dan checkout tetap bisa dilanjutkan | High | Open |
 | [BUG-006](BUG-006.md) | Tombol "Finish" tidak bisa diklik pada halaman Overview | Critical | Open |
 
-## Perlu Ditinjau (belum terbukti di kondisi bersih)
-
-| ID | Temuan | Yang harus dibuktikan | Hasil |
-|---|---|---|---|
-| BUG-010 | Badge keranjang menunjukkan 1 padahal keranjang kosong | Ulangi dari profil bersih. Sempat muncul juga di standard_user pada profil lama, jadi kemungkinan sisa data | Ditunda |
-
-## Temuan yang Digabung atau Dibatalkan
-
-| ID | Alasan |
-|---|---|
-| BUG-008 | Tombol detail "Add to cart" ternyata sesuai produk yang tampil (Fleece Jacket). Digabung ke BUG-002 |
-| BUG-009 | Tombol detail "Remove" ternyata sesuai produk yang tampil (Backpack). Digabung ke BUG-002 |
-| BUG-011 | Tampilan "ITEM NOT FOUND" tidak muncul saat diuji ulang dari kondisi bersih. Dibatalkan, kemungkinan sisa data lama |
 ## Ringkasan Bug Terkonfirmasi
 
 | Severity | Jumlah |
@@ -47,6 +34,15 @@ Expected: checkout berjalan normal.
 | High | 3 |
 | Medium | 3 |
 | **Total** | **7** |
+
+## Temuan yang Digabung atau Dibatalkan
+
+| ID | Status | Alasan |
+|---|---|---|
+| BUG-008 | Digabung ke BUG-002 | Perilaku tombol di halaman detail sesuai dengan produk yang tampil, sehingga merupakan akibat dari BUG-002 |
+| BUG-009 | Digabung ke BUG-002 | Sama seperti BUG-008 |
+| BUG-010 | Dibatalkan | Tidak dapat direproduksi saat diuji ulang dari kondisi bersih |
+| BUG-011 | Dibatalkan | Tidak dapat direproduksi saat diuji ulang dari kondisi bersih |
 
 ## Panduan Severity yang Digunakan
 
