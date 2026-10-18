@@ -37,4 +37,4 @@ Program internship selama 3 bulan (hingga Februari 2024) dengan predikat nilai *
 
 ## Kontak
 - Email: yeshiana92@gmail.com
-- LinkedIn: (tambahkan link)
+- LinkedIn: [linkedin.com/in/yeshiana-qa](https://www.linkedin.com/in/yeshiana-qa)
