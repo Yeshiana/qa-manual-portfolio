@@ -14,7 +14,7 @@ Pengujian manual (black box) pada SauceDemo, situs e-commerce demo yang disediak
 ## Metode dan Environment
 - **Metode:** Manual testing (black box)
 - **Browser:** Chrome 155, Windows 10
-- **Tanggal pengujian:** 9 Oktober 2026 (pengujian awal), 13 dan 14 Oktober 2026 (pengujian ulang)
+- **Tanggal pengujian:** 9 Oktober 2026 (pengujian awal), 10 dan 11 Oktober 2026 (pengujian ulang)
 - **Praktik:** setiap bug diulang dari kondisi bersih (data situs dihapus), dan dibandingkan dengan perilaku standard_user
 
 ## Ringkasan Hasil
