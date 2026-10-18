@@ -9,19 +9,19 @@ Lulusan S1 Informatika dengan latar belakang pengembangan web (PHP, Laravel, MyS
 
 ## Proyek
 
-### 1. Presensi Karyawan (Website)
+### 1. SauceDemo (E-commerce Demo)
+Pengujian manual 21 test case pada situs e-commerce demo SauceDemo, mencakup login, produk, keranjang, dan checkout. Ditemukan **7 bug** (1 Critical, 3 High, 3 Medium) pada akun problem_user dan error_user. Tiap bug punya langkah reproduksi, screenshot, dan pembanding dengan standard_user.
+- 📁 [Lihat folder](./saucedemo-testing)
+
+### 2. Presensi Karyawan (Website)
 Pengujian fungsional untuk peran admin dan karyawan: manajemen data karyawan, absensi masuk/pulang, dan absensi shift.
 - **Bug report:** 5 temuan (data tidak terupdate, riwayat tidak konsisten antar peran, validasi batas waktu, dan tombol tidak berfungsi)
 - **Catatan:** bug report ditulis ulang dari temuan saat pengembangan.
 - 📁 [Lihat folder](./presensi-testing)
 
-### 2. Sistem Informasi Perpustakaan (Website)
-Pengujian black box terhadap 17 skenario: autentikasi, pencarian, peminjaman, pengembalian, sanksi, dan laporan.
+### 3. Sistem Informasi Perpustakaan (Website)
+Pengujian black box terhadap 17 skenario (semua Pass): autentikasi, pencarian, peminjaman, pengembalian, sanksi, dan laporan.
 - 📁 [Lihat folder](./library-system-testing)
-
-### 3. SauceDemo (E-commerce Demo)
-(Tulis 1-2 kalimat: apa yang dites dan temuannya.)
-- 📁 [Lihat folder](./saucedemo-testing)
 
 ## Pengalaman
 **Internship, Himpunan Mahasiswa Informatika, International Women University**
