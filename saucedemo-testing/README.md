@@ -37,4 +37,4 @@ Pengujian manual (black box) pada SauceDemo, situs e-commerce demo yang disediak
 - [Ringkasan dan detail bug report](bug-reports/README.md)
 
 ## Catatan
-Beberapa temuan awal dibatalkan atau digabung setelah diuji ulang dari kondisi bersih (lihat tabel di ringkasan bug). Hanya bug yang dapat direproduksi yang dilaporkan.
+Beberapa temuan awal dibatalkan atau digabung setelah diuji ulang dari kondisi bersih (silahkan lihat tabel di ringkasan bug). Hanya bug yang dapat direproduksi yang dilaporkan.
