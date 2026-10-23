@@ -36,5 +36,5 @@ Program internship selama 3 bulan (hingga Februari 2024) dengan predikat nilai *
 | Pelatihan Desain User Interface | HIMATIF, International Women University | Januari 2023 | Peserta pelatihan desain UI | [Lihat](./certificates/03-pelatihan-ui-design-himatif-2023.jpg) |
 
 ## Kontak
-- Email: yeshiana92@gmail.com
+- Email: yeshiana09@gmail.com
 - LinkedIn: [linkedin.com/in/yeshiana-qa](https://www.linkedin.com/in/yeshiana-qa)
